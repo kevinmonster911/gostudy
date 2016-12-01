@@ -1,4 +1,4 @@
-package gostudy
+package main
 
 import "errors"
 import "log"
