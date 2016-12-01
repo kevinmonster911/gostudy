@@ -1,0 +1,5 @@
+package gostudy
+
+func hello() {
+
+}
