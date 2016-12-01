@@ -1,0 +1,21 @@
+package gostudy
+
+import "errors"
+import "log"
+
+func check(x int) error {
+	if x < 0 {
+		return errors.New("x <=0")
+	}
+	return nil
+}
+
+func main() {
+	x := 10
+	if err := check(x); err == nil {
+		x++
+		println(x)
+	} else {
+		log.Fatalln(err)
+	}
+}

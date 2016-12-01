@@ -1,5 +1,9 @@
 package gostudy
 
-func hello() {
+import (
+	"fmt"
+)
 
+func hello() {
+	fmt.Println("hello my duty!!!")
 }
